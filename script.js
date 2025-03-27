@@ -7,7 +7,7 @@ const bookForm = document.getElementById("book-form");
 
 // Fetch books from json-server
 function fetchBooks() {
-    fetch('https://shelfy.onrender.com/books')
+    fetch('https://shelfy.onrender.com')
         .then(response => response.json())
         .then(books => displayBooks(books))
         .catch(error => console.error("Error fetching books:", error));
@@ -51,7 +51,7 @@ bookForm.addEventListener("submit", (e) => {
         cover: document.getElementById("cover").value || "https://via.placeholder.com/150",
     };
 
-    fetch("https://shelfy.onrender.com/books", {
+    fetch("https://shelfy.onrender.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(newBook)
@@ -68,7 +68,7 @@ bookList.addEventListener("click", (e) => {
     if (e.target.classList.contains("delete-btn")) {
         const id = e.target.dataset.id;
 
-        fetch(`https://shelfy.onrender.com/books/${id}`, {
+        fetch(`https://shelfy.onrender.com/${id}`, {
             method: "DELETE"
         })
         .then(() => fetchBooks())
