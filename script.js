@@ -7,7 +7,7 @@ const bookForm = document.getElementById("book-form");
 
 // Fetch books from json-server
 function fetchBooks() {
-    fetch("http://localhost:3000/books")
+    fetch("https://shelfy.onrender.com")
         .then(response => response.json())
         .then(books => displayBooks(books))
         .catch(error => console.error("Error fetching books:", error));
