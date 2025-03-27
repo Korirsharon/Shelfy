@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-image: url("images/background.jpg");
+    text-align: center;
+    color: white;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+    width: 180px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 8px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+#book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px; /* Adds spacing between books */
+}
+
+.book {
+    background: white;
+    padding: 6px;
+    margin: 6px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    width: 120px;
+    text-align: center;
+    color: black;
+}
+
+.book img {
+    width: 80px;  
+    height: 110px; 
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.book button {
+    margin-top: 5px;
+    padding: 6px;
+    font-size: 10px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+.view-button {
+    margin-top: 5px;
+    padding: 6px;
+    font-size: 10px;
+    cursor: pointer;
+    background-color: #33cc33;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHELFY - Bookshelf App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>SHELFY</h1>
+
+    <form id="book-form">
+        <input type="hidden" id="book-id">
+        <input type="text" id="title" placeholder="Book Title" required>
+        <input type="text" id="author" placeholder="Author" required>
+        <input type="text" id="genre" placeholder="Genre" required>
+        <input type="text" id="year" placeholder="Year" required>
+        <input type="file" id="cover" placeholder="Image URL">
+        <button type="submit">Add Book</button>
+    </form>
+
+    <div id="book-list"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

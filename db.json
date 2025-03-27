@@ -1,0 +1,93 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Classic",
+      "read": false,
+      "year": 1925,
+      "cover": "https://covers.openlibrary.org/b/id/8225261-L.jpg"
+    },
+    {
+      "id": "2",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Classic",
+      "read": true,
+      "year": 1960,
+      "cover": "https://covers.openlibrary.org/b/id/8225260-L.jpg"
+    },
+    {
+      "id": "3",
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "read": true,
+      "year": 1949,
+      "cover": "https://covers.openlibrary.org/b/id/153541-L.jpg"
+    },
+    {
+      "id": "4",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "read": false,
+      "year": 1937,
+      "cover": "https://covers.openlibrary.org/b/id/6979862-L.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "genre": "Sci-Fi",
+      "read": false,
+      "year": 1965,
+      "cover": "https://covers.openlibrary.org/b/id/12629864-L.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "read": false,
+      "year": 1813,
+      "cover": "https://covers.openlibrary.org/b/id/8634596-L.jpg"
+    },
+    {
+      "id": "7",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "genre": "Coming-of-Age",
+      "read": false,
+      "year": 1951,
+      "cover": "https://covers.openlibrary.org/b/id/8224151-L.jpg"
+    },
+    {
+      "id": "8",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Adventure",
+      "read": true,
+      "year": 1988,
+      "cover": "https://covers.openlibrary.org/b/id/8128760-L.jpg"
+    },
+    {
+      "id": "9",
+      "title": "The Book Thief",
+      "author": "Markus Zusak",
+      "genre": "Historical Fiction",
+      "read": false,
+      "year": 2005,
+      "cover": "https://covers.openlibrary.org/b/id/8097857-L.jpg"
+    },
+    {
+      "id": "d9c0",
+      "title": "Dummy Book",
+      "author": "Sharon",
+      "genre": "Sci-Fi",
+      "year": "2012",
+      "cover": "https://via.placeholder.com/150"
+    }
+  ]
+}
